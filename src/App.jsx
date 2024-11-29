@@ -1,9 +1,11 @@
+import BMIcalculator from "./components/BMIcalculator"
 
 
 function App() {
 
   return (
     <>
+      <BMIcalculator />
     </>
   )
 }
