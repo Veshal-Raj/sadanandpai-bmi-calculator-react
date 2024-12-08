@@ -2,9 +2,9 @@ import { useState } from 'react'
 import '../App.css'
 
 const BMIcalculator = () => {
-    const [bmiValue, setBmiValue] = useState();
-    const [height, setHeight] = useState();
-    const [weight, setWeight] = useState();
+    const [bmiValue, setBmiValue] = useState(0);
+    const [height, setHeight] = useState(0);
+    const [weight, setWeight] = useState(0);
 
     const handleWeightInputChange = (e) => {
         let value = e.target.value;

@@ -2,12 +2,7 @@ import BMIcalculator from "./components/BMIcalculator"
 
 
 function App() {
-
-  return (
-    <>
-      <BMIcalculator />
-    </>
-  )
+  return <BMIcalculator />
 }
 
 export default App
